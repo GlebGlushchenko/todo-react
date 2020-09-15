@@ -20,6 +20,10 @@ function App() {
       {
         text:'Купить хлеб',
         completed: false
+      },
+      {
+        text:'Проверка автоматической загрузки',
+        completed: false
       }
   ])
 
