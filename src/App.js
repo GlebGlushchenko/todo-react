@@ -16,6 +16,10 @@ function App() {
       {
         text:'Купить молоко',
         completed: false
+      },
+      {
+        text:'Купить хлеб',
+        completed: false
       }
   ])
 
@@ -53,7 +57,7 @@ function App() {
   return (
       <div className="todo">
         <div className="todo__header">
-          <h4>Список задач</h4>
+          <h4>Мои задач</h4>
         </div>
         <TaskField onAddTask={onAddTask} />
         <div className='todo__list'>
