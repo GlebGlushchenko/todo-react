@@ -10,7 +10,11 @@ function App() {
         completed: true
       },
       {
-        text:'Дизайн',
+        text:'Разработать дизайн',
+        completed: false
+      },
+      {
+        text:'Купить молоко',
         completed: false
       }
   ])
